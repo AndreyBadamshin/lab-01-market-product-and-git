@@ -6,7 +6,7 @@ Short description of the product: Telegram is social media and instant messaging
 
 ## Main Components
 
-![Telegram Component Diagram](./diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
+![Telegram Component Diagram](/docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
 [Link to PlantUml code](diagrams/src/telegram/component-diagram.puml)
 
