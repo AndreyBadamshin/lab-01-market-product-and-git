@@ -6,9 +6,9 @@ Short description of the product: Telegram is social media and instant messaging
 
 ## Main Components
 
-[!Telegram Component Diagram](docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
+![Telegram Component Diagram](diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
-[Link to PlantUml code](docs/diagrams/src/telegram/component-diagram.puml)
+[Link to PlantUml code](diagrams/src/telegram/component-diagram.puml)
 
 -Notification/Updates Service: Sends out push-notifications to users and manages updates of the Telgram app
 
@@ -22,9 +22,9 @@ Short description of the product: Telegram is social media and instant messaging
 
 ## Data Flow
 
-[!Telegram Sequence Diagram](docs/diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
+![Telegram Sequence Diagram](diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 
-[Link to PlantUml code](docs/diagrams/src/telegram/sequence-diagram.puml)
+[Link to PlantUml code](diagrams/src/telegram/sequence-diagram.puml)
 
 Media Upload
 
@@ -32,17 +32,20 @@ Selected photo is propageted to the Mobile App, saveFilePart is downloaded to th
 
 ## Deployment
 
-[!Telegram Deployment Diagram](docs/diagrams/out/telegram/deployment-diagram/)
+![Telegram Deployment Diagram](diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 
-[Link to PlantUml code](docs/diagrams/src/telegram/deployment-diagram.puml)
+[Link to PlantUml code](diagrams/src/telegram/deployment-diagram.puml)
 
 Core telegram Components are deployed in the Telegram Global Infrastructure. Mobile and desktop apps along with the web-client are deployed locally on users devices. External services like SMS and Push services are deployed in external ecosystems.
 
 ## Assumptions
 
-I assume that message sending process is divide into several steps to ensure the fastest delivery possible while applying the appropriate security measures.
+I assume that message sending process is divide into several steps to ensure the fast message delivery. 
+
+I assume that security measures are applyied on each step.
 
 ## Open questions
 
 How databases' information is stored to avoid duplication?
+
 How external services are integrated with telegram core services?
