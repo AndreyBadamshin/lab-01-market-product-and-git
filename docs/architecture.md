@@ -8,7 +8,7 @@ Short description of the product: Telegram is social media and instant messaging
 
 ![Telegram Component Diagram](/docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
-[Link to PlantUml code](diagrams/src/telegram/component-diagram.puml)
+[Link to PlantUml code](/docs/diagrams/src/telegram/component-diagram.puml)
 
 -Notification/Updates Service: Sends out push-notifications to users and manages updates of the Telgram app
 
